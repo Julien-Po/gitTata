@@ -1,0 +1,18 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+  animation-name: animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animation {
+    from {color: red;}
+    to {color: yellow;}
+}
